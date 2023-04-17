@@ -1,0 +1,344 @@
+<?php ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>KiwiCity - Escooter Sharing Service</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="./assets/css/nice-select.css">
+    <link rel="stylesheet" href="./assets/css/owl.min.css">
+    <link rel="stylesheet" href="./assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/css/flaticon.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--============= ScrollToTop Section Starts Here =============-->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <a href="#0" class="scrollToTop"><i class="fas fa-angle-up"></i></a>
+    <div class="overlay"></div>
+    <!--============= ScrollToTop Section Ends Here =============-->
+
+
+    <!--============= Header Section Starts Here =============-->
+    <header class="header-section header-cl-black">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="index.php">
+                        <img src="./assets/images/logo/logo2.png" alt="logo">
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a href="index.php">Kiwi City</a>
+                    </li>
+                    <li>
+                        <a href="privacy-policy.php">Privacy Policy</a>
+                    </li>
+                </ul>
+                <div class="header-bar d-lg-none">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--============= Header Section Ends Here =============-->
+
+
+    <!--============= Banner Section Starts Here =============-->
+    <section class="banner-4 bg_img oh bottom_left" data-background="./assets/images/banner/banner-bg-4.png">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-7">
+                    <div class="banner-content-3">
+                        <h1 class="title">Zip through city streets with KiwiCity.</h1>
+                        <p>
+                            Welcome to KiwiCity, the top-notch eScooter sharing service app that aims to provide you with a seamless and convenient way to navigate through the city.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-5">
+                    <div class="banner-nav-container bg_img bg_contain bottom_center" data-background="./assets/images/banner/banner-4.png">
+                        <div class="ban-nav">
+                            <a href="#0" class="ban-prev active">
+                                <i class="flaticon-left"></i>
+                            </a>
+                            <a href="#0" class="ban-next">
+                                <i class="flaticon-right"></i>
+                            </a>
+                        </div>
+                        <div class="banner-4-slider owl-theme owl-carousel">
+                            <div class="slide-item bg_img" data-background="./assets/images/banner/slide1.png">
+                            </div>
+                            <div class="slide-item bg_img" data-background="./assets/images/banner/slide2.png">
+                            </div>
+                            <div class="slide-item bg_img" data-background="./assets/images/banner/slide3.png">
+                            </div>
+                            <div class="slide-item bg_img" data-background="./assets/images/banner/slide4.png">
+                            </div>
+                            <div class="slide-item bg_img" data-background="./assets/images/banner/slide5.png">
+                            </div>
+                            <div class="slide-item bg_img" data-background="./assets/images/banner/slide6.png">
+                            </div>
+                            <div class="slide-item bg_img" data-background="./assets/images/banner/slide7.png">
+                            </div>
+                            <div class="slide-item bg_img" data-background="./assets/images/banner/slide8.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============= Banner Section Ends Here =============-->
+
+
+    <!--============= Exclusive Section Starts Here =============-->
+    <section class="exclusive-section padding-bottom-2 padding-top oh" id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-xl-6">
+                    <div class="section-header left-style">
+                        <h5 class="cate">An Exhaustive list of Amazing Features</h5>
+                        <h2 class="title">See what You Can Do with KiwiCity</h2>
+                        <p>
+                            With KiwiCity, you can easily locate and rent eScooters at your fingertips, enabling you to move around the town effortlessly while reducing carbon footprints. Whether you need to commute to work or explore the city, KiwiCity is the perfect solution for all your transportation needs. Try it out today and experience the ultimate freedom of eScooter riding!
+                        </p>
+                    </div>
+                    <div class="row mb--20">
+                        <div class="col-sm-6">
+                            <div class="exclusive-item">
+                                <div class="exclusive-thumb">
+                                    <img src="./assets/images/feature/01.png" alt="feature">
+                                </div>
+                                <div class="exclusive-content">
+                                    <h6 class="title">Easy Download</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="exclusive-item">
+                                <div class="exclusive-thumb">
+                                    <img src="./assets/images/feature/02.png" alt="feature">
+                                </div>
+                                <div class="exclusive-content">
+                                    <h6 class="title">Find Scooter</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="exclusive-item">
+                                <div class="exclusive-thumb">
+                                    <img src="./assets/images/feature/03.png" alt="feature">
+                                </div>
+                                <div class="exclusive-content">
+                                    <h6 class="title">Quick Unlock</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="exclusive-item">
+                                <div class="exclusive-thumb">
+                                    <img src="./assets/images/feature/04.png" alt="feature">
+                                </div>
+                                <div class="exclusive-content">
+                                    <h6 class="title">Cheap Riding</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-xl-6 d-lg-block d-none">
+                    <div class="feature-1-thumb mt-0 ex-feature">
+                        <img src="./assets/images/feature/feature02.png" alt="feature">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============= Exclusive Section Ends Here =============-->
+
+
+    <!--============= Smart Watch Section Starts Here =============-->
+    <section class="smart-watch-section">
+        <div class="smart-bg bg_img d-lg-block d-none" data-background="./assets/images/bg/smart-bg-1.png"></div>
+        <div class="oh padding-top-2 padding-bottom-2 pb-lg-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mt-lg-4">
+                        <div class="smart-watch-content mt-lg-5">
+                            <div class="section-header left-style">
+                                <h5 class="cate">Also Available in</h5>
+                                <h2 class="title">Easy and Cheap Riding</h2>
+                                <p>
+                                    Everything about kiwicity is designed to be easy. You can download it right now from the App Store or Play Market. Moreover, with just a few steps, you can find the nearest escooter and ride with exact price you ride.
+                                </p>
+                            </div>
+                            <div class="app-button-group">
+                                <a href="#0" class="app-button">
+                                    <img src="./assets/images/button/google.png" alt="button">
+                                </a>
+                                <a href="#0" class="app-button">
+                                    <img src="./assets/images/button/apple.png" alt="button">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-lg-block d-none">
+                        <div class="smart-watch">
+                            <img src="./assets/images/watch/watch2.png" alt="watch">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============= Smart Watch Section Ends Here =============-->
+
+    <!--============= Faq Section Starts Here =============-->
+    <section class="faq-section padding-top padding-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="faq-header">
+                        <div class="cate">
+                            <img src="./assets/images/cate.png" alt="cate">
+                        </div>
+                        <h2 class="title">Frequently Asked Questions</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="faq-wrapper mb--38">
+                        <div class="faq-item">
+                            <div class="faq-thumb">
+                                <i class="flaticon-pdf"></i>
+                            </div>
+                            <div class="faq-content">
+                                <h4 class="title">Is the Web App Secure?</h4>
+                                <p>
+                                    Web application security is the process of protecting websites and online services against different security threats that exploit vulnerabilities in an application’s code.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-thumb">
+                                <i class="flaticon-pdf"></i>
+                            </div>
+                            <div class="faq-content">
+                                <h4 class="title">What features does the Web App have?</h4>
+                                <p>
+                                    Both the Mobile Apps and the Web App give you the ability to you to access your account information, view news releases, report an outage, and contact us via email or phone.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-thumb">
+                                <i class="flaticon-pdf"></i>
+                            </div>
+                            <div class="faq-content">
+                                <h4 class="title">How do I get the Mobile App for my phone?</h4>
+                                <p>
+                                    Both the Mobile Apps and the Web App give you the ability to you to access your account information, view news releases, report an outage, and contact us via email or phone.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-thumb">
+                                <i class="flaticon-pdf"></i>
+                            </div>
+                            <div class="faq-content">
+                                <h4 class="title">How does KiwiCity differ from usual apps? </h4>
+                                <p>
+                                    Both the Mobile Apps and the Web App give you the ability to you to access your account information, view news releases, report an outage, and contact us via email or phone.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============= Faq Section Ends Here =============-->
+
+    <!--============= Footer Section Starts Here =============-->
+    <footer class="footer-section bg_img" data-background="./assets/images/footer/footer-bg.jpg">
+        <div class="container">
+            <div class="footer-top padding-top padding-bottom">
+                <div class="logo">
+                    <a href="#0">
+                        <img src="./assets/images/logo/footer-logo.png" alt="logo">
+                    </a>
+                </div>
+                <ul class="social-icons">
+                    <li>
+                        <a href="#0"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="active"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-pinterest-p"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-google-plus-g"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <ul class="footer-link">
+                    <li>
+                        <a href="#0">Kiwi City</a>
+                    </li>
+                    <li>
+                        <a href="#0">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>
+                    Copyright © 2023.All Rights Reserved By <a href="#0">Kiwi City</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!--============= Footer Section Ends Here =============-->
+
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script src="./assets/js/modernizr-3.6.0.min.js"></script>
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/magnific-popup.min.js"></script>
+    <script src="./assets/js/jquery-ui.min.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/waypoints.js"></script>
+    <script src="./assets/js/nice-select.js"></script>
+    <script src="./assets/js/owl.min.js"></script>
+    <script src="./assets/js/counterup.min.js"></script>
+    <script src="./assets/js/paroller.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
