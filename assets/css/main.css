@@ -839,10 +839,10 @@ p:last-child {
   margin-bottom: -7px !important;
 }
 p a {
-  color: #ee4730;
+  color: #7daafb;
 }
 p a:hover {
-  color: #ee4730;
+  color: #7daafb;
 }
 @media (max-width: 575px) {
   p {
@@ -1304,13 +1304,13 @@ input[type=submit] {
   line-height: 36px;
   text-align: center;
   font-size: 16px;
-  border: 1px solid #4c218b;
+  border: 1px solid #3668EF;
   border-radius: 50%;
   color: #ffffff;
 }
 .social-icons li a.active, .social-icons li a:hover {
-  background: #ee4730;
-  border-color: #ee4730;
+  background: #3668EF;
+  border-color: #3668EF;
 }
 
 .section-header {
@@ -1554,7 +1554,7 @@ input[type=submit] {
   color: #ffffff;
 }
 .footer-link li a:hover {
-  color: #ee4730;
+  color: #7daafb;
 }
 @media (max-width: 575px) {
   .footer-link li a {
@@ -2469,7 +2469,7 @@ input[type=submit] {
 }
 @media (max-width: 991px) {
   .header-section.active {
-    background: #33406a;
+    background: #3668EF;
   }
 }
 .header-section.header-cl-black.active {
@@ -5945,7 +5945,7 @@ input[type=submit] {
 
 .smart-bg {
   position: absolute;
-  top: -160px;
+  top: -45px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -13475,7 +13475,7 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
   border-radius: 5px;
   -webkit-transform: translateY(150px);
   transform: translateY(150px);
-  background: #05c3de;
+  background: #3668EF;
   text-align: center;
   font-size: 16px;
 }
